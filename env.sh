@@ -18,6 +18,7 @@ function tc() { touch "$1" && code "$1"; }
 alias c='code .'
 alias g='git'
 alias gs='git status'
+alias gcm='git commit -m'
 alias sz='source ~/.zshrc && echo 🔥🔥🔥  ZSH config updated  🔥🔥🔥'
 alias cz='code ~/.zshrc'
 alias cpwd='pwd|tr -d "\n"|pbcopy'
